@@ -1,0 +1,434 @@
+*,
+*::before,
+*::after {
+  font-family: "Open Sans", sans-serif;
+  user-select: none;
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+.header {
+  /* width: 100%;
+  height: 100px; */
+  margin: 5% 0px;
+  position: relative;
+  text-align: center;
+  background: linear-gradient(
+    60deg,
+    rgba(84, 58, 183, 1) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
+  background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+}
+.skills {
+  width: 80%;
+  margin: 3% auto;
+  /* border: 1px solid red; */
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.projects {
+  width: 80%;
+  margin: 0% auto;
+  margin-bottom: 2%;
+}
+
+@keyframes waves {
+  to {
+    transform: translateY(-50%) rotate(540deg);
+  }
+}
+.skillCube {
+  margin: 15% auto;
+  width: 50%;
+}
+.about-me2 {
+  /* border: 1px solid black; */
+  margin-left: 5%;
+  width: 80%;
+  max-width: 30rem;
+}
+/* start wave */
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+  /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
+}
+
+.content {
+  position: relative;
+  height: 20vh;
+  text-align: center;
+  background-color: black;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+
+  .content {
+    height: 30vh;
+  }
+}
+/* End wave */
+.name {
+  font-family: Monoton;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+.description {
+  font-family: Iceland;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+      0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+  }
+}
+
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+      0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+      0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+  }
+}
+
+.neon-yellow {
+  font-family: Pacifico;
+  animation: neon3 1.5s ease-in-out infinite alternate;
+}
+
+.neon-green {
+  font-family: "Press Start 2P";
+  animation: neon4 1.5s ease-in-out infinite alternate;
+}
+
+.neon-orange {
+  font-family: Audiowide;
+  animation: neon5 1.5s ease-in-out infinite alternate;
+}
+
+.neon-violate {
+  font-family: Vampiro One;
+  animation: neon6 1.5s ease-in-out infinite alternate;
+}
+
+/*glow*/
+
+@keyframes neon3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffdd1b,
+      0 0 70px #ffdd1b, 0 0 80px #ffdd1b, 0 0 100px #ffdd1b, 0 0 150px #ffdd1b;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffdd1b,
+      0 0 35px #ffdd1b, 0 0 40px #ffdd1b, 0 0 50px #ffdd1b, 0 0 75px #ffdd1b;
+  }
+}
+
+@keyframes neon4 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #b6ff00,
+      0 0 70px #b6ff00, 0 0 80px #b6ff00, 0 0 100px #b6ff00, 0 0 150px #b6ff00;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #b6ff00,
+      0 0 35px #b6ff00, 0 0 40px #b6ff00, 0 0 50px #b6ff00, 0 0 75px #b6ff00;
+  }
+}
+
+@keyframes neon5 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff9900,
+      0 0 70px #ff9900, 0 0 80px #ff9900, 0 0 100px #ff9900, 0 0 150px #ff9900;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff9900,
+      0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 75px #ff9900;
+  }
+}
+
+@keyframes neon6 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
+      0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de,
+      0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+  }
+}
+/*Make stuff responsive*/
+
+/* Neon Ends */
+
+/* Computer Background Starts */
+#computer {
+  transform-origin: center bottom;
+  animation: showComputer 1.5s ease-in, bounceComputer 4s 1.5s infinite;
+}
+#shadow {
+  animation: showShadow 2s, scaleShadow 4s 1.5s infinite;
+}
+#hole {
+  transform-origin: center center;
+  animation: scaleHoleUp 0.6s, scaleHoleDown 1s 1.5s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+#code-cover-screen {
+  animation: scrollCodeIn 3s 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#scrolling-code {
+  animation: scrollCode 3s 3.5s linear infinite;
+}
+#scrolling-code-2 {
+  animation: scrollCode2 3s 3.5s linear infinite;
+  transform: translateY(87px);
+}
+
+@keyframes showComputer {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes showShadow {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes scaleHoleUp {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes scaleHoleDown {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes bounceComputer {
+  0%,
+  100% {
+    animation-timing-function: ease-in-out;
+    transform: translateY(0);
+  }
+  18% {
+    animation-timing-function: ease-in-out;
+    transform: translateY(-20px);
+  }
+  36% {
+    animation-timing-function: ease-in-out;
+    transform: translateY(6px);
+  }
+  52% {
+    animation-timing-function: ease-in-out;
+    transform: translateY(-8px);
+  }
+  68% {
+    animation-timing-function: ease-in-out;
+    transform: translateY(2px);
+  }
+  80% {
+    animation-timing-function: ease-in-out;
+    transform: translateY(-4px);
+  }
+}
+@keyframes scaleShadow {
+  0%,
+  100% {
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+  }
+  18% {
+    animation-timing-function: ease-in-out;
+    transform: scale(1.05);
+  }
+  36% {
+    animation-timing-function: ease-in-out;
+    transform: scale(1.01);
+  }
+  53% {
+    animation-timing-function: ease-in-out;
+    transform: scale(1.04);
+  }
+  68% {
+    animation-timing-function: ease-in-out;
+    transform: scale(1.02);
+  }
+  80% {
+    transform: scale(1.03);
+  }
+}
+@keyframes scrollCodeIn {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(180px);
+    opacity: 1;
+  }
+}
+@keyframes scrollCode {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  49.99% {
+    transform: translateY(-80px);
+    opacity: 1;
+  }
+  50% {
+    transform: translatey(87px);
+    opacity: 0;
+  }
+  50.01% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes scrollCode2 {
+  0% {
+    transform: translateY(87);
+    opacity: 1;
+  }
+  49.99% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  99.98% {
+    transform: translatey(-80px);
+    opacity: 1;
+  }
+  99.99% {
+    transform: translateY(87);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Computer Background Ends */
+
+/* Glowing Icons start */
+
+.container__apple,
+.container__twitter,
+.container__github,
+.container__facebook {
+  font-size: 8em;
+  background-color: #18191f;
+  color: #fff;
+  box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+    2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080;
+  border-radius: 29px;
+  padding: 11px 19px;
+  margin: 0 40px;
+  animation: animate 3s linear infinite;
+  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+    0 0 200px #0072ff;
+}
+.apple {
+  animation: animate 3s linear infinite;
+}
+.twitter {
+  animation: animate 3s linear 0.3s infinite;
+}
+.facebook {
+  animation: animate 3s linear 0.7s infinite;
+}
+.github {
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+/* Glowing Icons End */
