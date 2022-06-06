@@ -22,12 +22,12 @@ const ResponsiveAppBar = () => {
   return (
     <>
       <AppBar
-        position="sticky"
+        position="fixed"
         sx={{
           backgroundColor: "#fce043",
           backgroundImage: `linear-gradient(315deg, #fce043 0%, #fb7ba2 74%)`,
-          borderRadius: 10,
-          margin: "2px 0px",
+          borderRadius: 0,
+          
         }}
       >
         <Container maxWidth="xl">
