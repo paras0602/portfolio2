@@ -47,7 +47,7 @@ function About() {
         {/* all About Content goes here */}
         <div style={{ height: "366px" }}>
           <img
-            src="my-pic2.png"
+            src="mypic-3.jpg"
             alt="My Picture"
             style={{ maxWidth: "366px", width: "90vw" }}
           />
