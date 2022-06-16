@@ -28,6 +28,17 @@ const data = [
     live: "https://tata-cliq.vercel.app/index.html",
     video: "https://drive.google.com/file/d/18WEuU82eojVlcnkIqF_uGApy-uTG3SJw/view",
     techStack: [FaHtml5, FaCss3, FaJsSquare,DiBootstrap],
+  },
+  {
+    
+    heading: "Movie Search App",
+    about:
+      "This is movie search website which search all new movies with thier star cast.",
+    image: "movie_search.png",
+    Github: "",
+    live: "https://pedantic-hermann-cd77cd.netlify.app/",
+    video: "",
+    techStack: [FaHtml5, FaCss3, FaJsSquare,DiBootstrap],
   }
 ];
 

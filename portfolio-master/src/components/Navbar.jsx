@@ -25,7 +25,7 @@ const ResponsiveAppBar = () => {
         position="fixed"
         sx={{
           backgroundColor: "#fce043",
-          backgroundImage: `linear-gradient(315deg, #fce043 0%, #fb7ba2 74%)`,
+          backgroundImage: `linear-gradient(315deg, #ff8e53 30%, #fe6b8b 80%)`,
           borderRadius: 0,
           
         }}
