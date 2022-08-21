@@ -38,7 +38,7 @@ function Contactme() {
         </a>
         <a href={"parasjain912@gmail.com"} target="_blank"></a>
         <button id="button" className="close">
-          <GoDeviceMobile /> Call
+          <GoDeviceMobile />9319348133
         </button>
         <a href={"https://parasjain912@gmail.com"} target="_blank">
          

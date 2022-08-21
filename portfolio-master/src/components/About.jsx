@@ -85,7 +85,7 @@ function About() {
             </a>
             <a
               target={"_blank"}
-              href="https://www.linkedin.com/in/paras060\/"
+              href="https://www.linkedin.com/in/paras0602/"
             >
               <Button
                 variant="contained"
@@ -104,7 +104,7 @@ function About() {
             </a>
             <a
               target={"_blank"}
-              href="https://drive.google.com/file/d/1lyLJLBXFmFf2ooIvfoROH1tMg2kbo6b5/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Au8pw2wEiyAlYBo7QtYsHIksCISMmwES/view?usp=sharing"
             >
               <Button
                 variant="contained"

@@ -5,19 +5,9 @@ import { FaReact, FaDocker} from "react-icons/fa";
 import { DiNodejs,DiBootstrap } from "react-icons/di";
 import { DiMongodb, DiRedis } from "react-icons/di";
 import { SiExpress, SiSocketdotio, SiNextdotjs,SiRedux } from "react-icons/si";
-import { AiTwotoneFire } from "react-icons/ai";
 import { SiMaterialui } from "react-icons/si";
 const data = [
-  {
-    heading: "Sephora Clone",
-    about:
-      "It is the clone of the Sephora.nnow website which is a Makeup products realeted e-commerce website. It is my third group project in masai school. We have clone all major features of the website like View product, add to cart, product filter etc. This is a front-end only project so all detabase related features has been achived with Json-server.",
-    image: "sephora.png",
-    Github: "https://github.com/paras0602/Sephora-nnnow.com-clone",
-    live: "https://fascinating-lily-608479.netlify.app/",
-    video: "https://drive.google.com/file/d/16k-8MvgpEJIjxFu1zIl2DqCgOn7SftRY/view",
-    techStack: [FaReact, FaCss3,SiMaterialui,SiRedux],
-  },
+  
   {
     
     heading: "Tata Cliq Clone",
@@ -31,6 +21,27 @@ const data = [
   },
   {
     
+    heading: "The Indian Express",
+    about:
+      "In this project we have tried to clone full-stack of indian express. This project is an effort to implement learning at masai and improve our understanding of the web world (React, Express, mongoDB, NodeJs) . Through this website we are trying to provide with all that happens around you.",
+    image: "https://user-images.githubusercontent.com/78145877/175020313-5fe32290-2993-411d-836d-9063c6f98756.png",
+    Github: "https://github.com/paras0602/the-indian-express-clone",
+    live: "https://indianexpress.netlify.app/",
+    video: "https://drive.google.com/file/d/1HZNYU8e7AlDjR5j_n6H7D1XLTSEXfngR/view?usp=sharing",
+    techStack: [FaHtml5,FaCss3, FaJsSquare,DiBootstrap,FaReact,DiMongodb,DiNodejs,SiRedux,SiMaterialui],
+  },
+  {
+    heading: "Sephora Clone",
+    about:
+      "It is the clone of the Sephora.nnow website which is a Makeup products realeted e-commerce website. It is my third group project in masai school. We have clone all major features of the website like View product, add to cart, product filter etc. This is a front-end only project so all detabase related features has been achived with Json-server.",
+    image: "sephora.png",
+    Github: "https://github.com/paras0602/Sephora-nnnow.com-clone",
+    live: "https://fascinating-lily-608479.netlify.app/",
+    video: "https://drive.google.com/file/d/16k-8MvgpEJIjxFu1zIl2DqCgOn7SftRY/view",
+    techStack: [FaReact, FaCss3,SiMaterialui,SiRedux],
+  },
+  {
+    
     heading: "Movie Search App",
     about:
       "This is movie search website which search all new movies with thier star cast.",
@@ -40,6 +51,7 @@ const data = [
     video: "",
     techStack: [FaHtml5, FaCss3, FaJsSquare,DiBootstrap],
   }
+  
 ];
 
 export default data;
